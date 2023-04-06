@@ -484,6 +484,7 @@ do
         Library.Theme.Gradient = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
         -- Library.Theme.SecondIcon = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
         Library.Theme.Hue = Utility.AddImage("Abyss/Assets/UI/Hue.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/HuePicker.png")
+        Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
         Library.Theme.Saturation = Utility.AddImage("Abyss/Assets/UI/Saturation.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/SaturationPicker.png")
         Library.Theme.SaturationCursor = Utility.AddImage("Abyss/Assets/UI/HueCursor.png", "https://raw.githubusercontent.com/mvonwalk/splix-assets/main/Images-cursor.png")
         --
