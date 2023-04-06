@@ -348,7 +348,7 @@ do
             Max = 2, Current = 0
         }
         --
-        Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo2.png", "https://github.com/Mick-gordon/Pink-/blob/main/Purple%20%2B%20Logo.png")
+        Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo2.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
         --
         local WindowOutline = Utility.AddDrawing("Square", {
             Size = WindowSize,
