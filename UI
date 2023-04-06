@@ -3996,7 +3996,7 @@ do
                 Callback = function(Choosen)
                     if Choosen == "Default" then
                         Library:UpdateTheme({
-                            Accent = Color3.fromHex("#7583fa"),
+                            Accent = Color3.fromHex("#660065"),
                             Outline = Color3.fromHex("#000005"),
                             Inline = Color3.fromHex("#323232"),
                             LightContrast = Color3.fromHex("#202020"),
