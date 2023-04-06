@@ -286,19 +286,19 @@ do
     --
     Utility.SaveConfig = function(Config)
         writefile(
-            "Abyss/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json", 
+            "Purple/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json", 
             HttpService:JSONEncode(UISettings.Flags)
         )
     end
     --
     Utility.DeleteConfig = function(Config)
         delfile(
-            "Abyss/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json"
+            "Purple/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json"
         )
     end
     --
     Utility.LoadConfig = function(Config)
-        local Config = HttpService:JSONDecode(readfile("Abyss/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json"))
+        local Config = HttpService:JSONDecode(readfile("Purple/Configs/" .. tostring(game.PlaceId) .. "/" .. Config .. ".json"))
         --
         Library.Flags = LoadedConfig
         --
@@ -348,7 +348,7 @@ do
             Max = 2, Current = 0
         }
         --
-        Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo2.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
+        Library.Theme.Logo = Utility.AddImage("Purple/Assets/UI/Logo2.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
         --
         local WindowOutline = Utility.AddDrawing("Square", {
             Size = WindowSize,
@@ -474,25 +474,25 @@ do
         --
         Window.SetText(0, "UI Initialization [ Downloading ]")
         --
-        Utility.AddFolder("Abyss")
-        Utility.AddFolder("Abyss/Caches")
-        Utility.AddFolder("Abyss/Assets")
-        Utility.AddFolder("Abyss/Assets/UI")
-        Utility.AddFolder("Abyss/Configs")
-        Utility.AddFolder("Abyss/Scripts")
+        Utility.AddFolder("Purple")
+        Utility.AddFolder("Purple/Caches")
+        Utility.AddFolder("Purple/Assets")
+        Utility.AddFolder("Purple/Assets/UI")
+        Utility.AddFolder("Purple/Configs")
+        Utility.AddFolder("Purple/Scripts")
         --
-        Library.Theme.Gradient = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
-        -- Library.Theme.SecondIcon = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
-        Library.Theme.Hue = Utility.AddImage("Abyss/Assets/UI/Hue.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/HuePicker.png")
-        Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
-        Library.Theme.Saturation = Utility.AddImage("Abyss/Assets/UI/Saturation.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/SaturationPicker.png")
-        Library.Theme.SaturationCursor = Utility.AddImage("Abyss/Assets/UI/HueCursor.png", "https://raw.githubusercontent.com/mvonwalk/splix-assets/main/Images-cursor.png")
+        Library.Theme.Gradient = Utility.AddImage("Purple/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
+        -- Library.Theme.SecondIcon = Utility.AddImage("Purple/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
+        Library.Theme.Hue = Utility.AddImage("Purple/Assets/UI/Hue.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/HuePicker.png")
+        Library.Theme.Logo = Utility.AddImage("Purple/Assets/UI/Logo.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
+        Library.Theme.Saturation = Utility.AddImage("Purple/Assets/UI/Saturation.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/SaturationPicker.png")
+        Library.Theme.SaturationCursor = Utility.AddImage("Purple/Assets/UI/HueCursor.png", "https://raw.githubusercontent.com/mvonwalk/splix-assets/main/Images-cursor.png")
         --
-        Library.Theme.Astolfo = Utility.AddImage("Abyss/Assets/UI/Astolfo.png", "https://i.imgur.com/T20cWY9.png")
-        Library.Theme.Aiko = Utility.AddImage("Abyss/Assets/UI/Aiko.png", "https://i.imgur.com/1gRIdko.png")
-        Library.Theme.Rem = Utility.AddImage("Abyss/Assets/UI/Rem.png", "https://i.imgur.com/ykbRkhJ.png")
-        Library.Theme.Violet = Utility.AddImage("Abyss/Assets/UI/Violet.png", "https://i.imgur.com/7B56w4a.png")
-        Library.Theme.Asuka = Utility.AddImage("Abyss/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
+        Library.Theme.Astolfo = Utility.AddImage("Purple/Assets/UI/Astolfo.png", "https://i.imgur.com/T20cWY9.png")
+        Library.Theme.Aiko = Utility.AddImage("Purple/Assets/UI/Aiko.png", "https://i.imgur.com/1gRIdko.png")
+        Library.Theme.Rem = Utility.AddImage("Purple/Assets/UI/Rem.png", "https://i.imgur.com/ykbRkhJ.png")
+        Library.Theme.Violet = Utility.AddImage("Purple/Assets/UI/Violet.png", "https://i.imgur.com/7B56w4a.png")
+        Library.Theme.Asuka = Utility.AddImage("Purple/Assets/UI/Asuka.png", "https://i.imgur.com/3hwztNM.png")
         --
         Window.SetText(1, "Checking Assets")
         --
