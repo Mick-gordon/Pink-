@@ -348,7 +348,7 @@ do
             Max = 2, Current = 0
         }
         --
-        Library.Theme.Logo = Utility.AddImage("Purple/Assets/UI/Logo2.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/image_2023-04-06_100644500.png")
+        Library.Theme.Logo = Utility.AddImage("Purple/Assets/UI/Logo2.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/image_2023-04-06_100644500(1).png")
         --
         local WindowOutline = Utility.AddDrawing("Square", {
             Size = WindowSize,
