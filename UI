@@ -482,9 +482,9 @@ do
         Utility.AddFolder("Purple/Scripts")
         --
         Library.Theme.Gradient = Utility.AddImage("Purple/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
-        -- Library.Theme.SecondIcon = Utility.AddImage("Purple/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
+        -- 
+        Library.Theme.SecondIcon = Utility.AddImage("Purple/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
         Library.Theme.Hue = Utility.AddImage("Purple/Assets/UI/Hue.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/HuePicker.png")
-        Library.Theme.Logo = Utility.AddImage("Purple/Assets/UI/Logo.png", "https://raw.githubusercontent.com/Mick-gordon/Pink-/main/Purple%20%2B%20Logo.png")
         Library.Theme.Saturation = Utility.AddImage("Purple/Assets/UI/Saturation.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/SaturationPicker.png")
         Library.Theme.SaturationCursor = Utility.AddImage("Purple/Assets/UI/HueCursor.png", "https://raw.githubusercontent.com/mvonwalk/splix-assets/main/Images-cursor.png")
         --
